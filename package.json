@@ -1,12 +1,12 @@
 {
-  "name": "premierprojet",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "chat-server",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ../../Desktop/serveur/serveur/serveur.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "express": "~4.15.5",
+    "ws": "^3.3.2"
+  }
 }
